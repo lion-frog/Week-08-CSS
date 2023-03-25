@@ -1,11 +1,9 @@
-
-
 .backround{
     background-image: url("https://www.google.com/search?q=fotografiska+logo&client=firefox-b-1-d&sxsrf=APwXEddOMor561XhbSWQc9tWRAd0vV08_Q:1679710481036&source=lnms&tbm=isch&sa=X&ved=2ahUKEwidxrCUgfb9AhVDEFkFHdtmDeEQ0pQJegQIBhAC&biw=1440&bih=728&dpr=2#imgrc=Xyv5JuSePcV-VM");
     background-color: #cccccc;
 }
 
-body {
+body { /* gif image for backround */
     background-image: url(https://images.squarespace-cdn.com/content/v1/53206172e4b0fcd5fdc04a42/1635312705750-DBAEYED14M67GGKMZ6YG/building_lights4.gif?format=300w)
   }
   
@@ -23,7 +21,7 @@ h1.headerone{ /* underline / dropshadow Header */
     font-family: Century Gothic;
   }
 
-  .fonthome { /* Website Font */
+  .fonthome { /* Website Font home page */
     font-family: Century Gothic;
     color: white;
   }
@@ -67,7 +65,7 @@ overflow-y: auto;
     align-items: right;
 }
 
-.textcenter { 
+.textcenter { /* centers the text , with underline*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,12 +74,18 @@ overflow-y: auto;
     margin-bottom: 10px;
 }
 
-.center {
+.center { /* centers text */
     display: flex;
     justify-content: center;
 }
 
-#box-model { /* not using, test */
+
+/* tried to change the links to the other pages color + hover failed :( 
+.link { color:white; } 
+.link:hover { color: pink; }
+*/
+
+/* #box-model { not using, test */
     padding: 20px;
     boder-style: solid;
     border-width: 3px;
