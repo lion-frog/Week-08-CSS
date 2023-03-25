@@ -1,0 +1,112 @@
+* {
+padding: 0; /* clears default padding */
+margin: 0: /* clears default margin */
+box-sizing: border-box;
+}
+
+.backround{
+    background-image: url("https://www.google.com/search?q=fotografiska+logo&client=firefox-b-1-d&sxsrf=APwXEddOMor561XhbSWQc9tWRAd0vV08_Q:1679710481036&source=lnms&tbm=isch&sa=X&ved=2ahUKEwidxrCUgfb9AhVDEFkFHdtmDeEQ0pQJegQIBhAC&biw=1440&bih=728&dpr=2#imgrc=Xyv5JuSePcV-VM");
+    background-color: #cccccc;
+   }
+
+h1.headerone{ /* underline / dropshadow Header */
+    border-bottom:2px solid black;
+    position:relative;
+    box-shadow: 0 4px 5px -2px black;
+    background-color: #c0c8ab;
+}
+
+.font { /* Website Font */
+    font-family: Century Gothic;
+  }
+
+  .fonthome { /* Website Font */
+    font-family: Century Gothic;
+    color: white;
+    
+  }
+
+  .boxed {
+    width: 1000px;
+    border: 1px solid black;
+    padding: 200px;
+    margin: 20px;
+    border-radius: 20px ; 
+    position:relative;
+  } 
+
+
+#container{ /* body color backround */
+height: 100vh;
+width: 100vw;
+text-emphasis-color: black;
+background-color: #b7aa8f;
+overflow-y: auto;
+}
+
+.hometext{
+height: 20vh;
+width: 100vw;
+text-emphasis-color: white;
+background-color: black;
+overflow-y: auto;
+}
+
+#box-model { /* not using, test */
+    padding: 20px;
+    boder-style: solid;
+    border-width: 3px;
+    margin: 30px
+    background-color: blue;
+}
+
+/* .background { */
+    padding: 0;
+    height:1000px;
+    width:1000px;
+    color: black;
+    font-size: 5rem;
+    text-align: center;
+    background-image: url(https://www.google.com/search?q=fotografiska+logo&client=firefox-b-1-d&sxsrf=APwXEddOMor561XhbSWQc9tWRAd0vV08_Q:1679710481036&source=lnms&tbm=isch&sa=X&ved=2ahUKEwidxrCUgfb9AhVDEFkFHdtmDeEQ0pQJegQIBhAC&biw=1440&bih=728&dpr=2#imgrc=Xyv5JuSePcV-VM);
+    /* backround-repeat: contain; */
+    /* background-position: center; */
+}
+
+.container {   /* not using, test */
+    height: 5vh;
+    width: 70000vw;
+    overflow-y: auto;
+    background-color: #b9b6dc;
+    display: flex;
+    justify-content: center;
+    allign-items: center;
+}
+
+/* justify right using flex */
+.foot-container2 { 
+    height: 5vh;
+    width: 100vw;
+    overflow-y: auto;
+    background-color: #444C38;
+    display: flex;
+    justify-content: right;
+    allign-items: right;
+}
+
+.right {   /* not using, test */
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  }
+
+.hov {   /* not using, test */
+    height: 200px;
+    width 200px;
+    background-color: blue;
+}
+.hov:hover {   /* not using, test */
+    background-color: red;
+}
+
